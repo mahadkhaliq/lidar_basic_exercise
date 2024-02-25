@@ -32,11 +32,11 @@ import laspy
 import matplotlib.pyplot as plt
 
 **Load LAS file**
-las = laspy.read("path/to/your/file.las")
+-las = laspy.read("path/to/your/file.las")
 
 **Plot a simple x, y scatter plot of the points**
-plt.scatter(las.x, las.y, s=1)
-plt.xlabel('X')
-plt.ylabel('Y')
-plt.title('LIDAR Point Cloud')
-plt.show()
+-plt.scatter(las.x, las.y, s=1)
+-plt.xlabel('X')
+-plt.ylabel('Y')
+-plt.title('LIDAR Point Cloud')
+-plt.show()
